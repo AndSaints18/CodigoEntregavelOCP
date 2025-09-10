@@ -1,0 +1,10 @@
+// src/CLT.java
+public class CLT implements Pagamento {
+    @Override
+    public float calcularPagamento() {
+        System.out.println("Calculando pagamento do colaborador CLT...");
+        // Lógica de cálculo específica para um colaborador CLT,
+        // que pode incluir benefícios, impostos, etc.
+        return 7500.0f;
+    }
+}
